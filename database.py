@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 
 
 # DATABASE_URL ="mysql+pymysql://root:root@localhost:3306/training_db"
-DATABASE_URL = "postgresql+psycopg2://practice_db_sanq_user:goqeMq6RAb5dO8iWXoeN8BGGWB35ERdc@dpg-dbcth7eq1p3s73d8vbtg-a.oregon-postgres.render.com/practice_db_sanq"
+DATABASE_URL = "postgresql+psycopg2://training_db_hcxj_user:nFpZE4Z2T4yUgNDVyrXT5BQzX72zjr50@dpg-dbctgggm7kps73csvvi0-a.oregon-postgres.render.com/training_db_hcxj"
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
