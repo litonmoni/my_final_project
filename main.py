@@ -5,7 +5,7 @@ from student_controller import routers as student_router
 from fastapi.staticfiles import StaticFiles
 
 Base.metadata.create_all(bind = engine)
-app = FastAPI(title= "Fast api project for assesment")
+app = FastAPI(title= "My First API Project")
 app.include_router(student_router)
 app.add_middleware(
     CORSMiddleware,
